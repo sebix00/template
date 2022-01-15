@@ -1,0 +1,33 @@
+.testimonial {
+  background-color: var(--color-grey-light-5);
+  padding: 1.25rem 1.75rem;
+  padding-bottom: 3rem;
+  border-radius: 15px;
+  display: flex;
+  max-width: 50rem;
+}
+.testimonial__user {
+  display: flex;
+}
+.testimonial__photo {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+}
+.testimonial__user-box {
+  margin-left: 2rem;
+}
+.testimonial__user-text,
+.testimonial__user-name,
+.testimonial__user-position {
+  color: var(--color-grey-dark-4);
+  font-size: 1.5rem;
+}
+.testimonial__user-text p,
+.testimonial__user-name p,
+.testimonial__user-position p {
+  display: block;
+}
+.testimonial__user-position {
+  text-transform: uppercase;
+}
