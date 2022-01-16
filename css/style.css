@@ -204,7 +204,7 @@ body {
   grid-column: center-start / center-end;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
-  grid-gap: 6rem;
+  grid-gap: 3rem;
   align-items: start; }
   .user-cards__heading {
     grid-column: 1/-1;
