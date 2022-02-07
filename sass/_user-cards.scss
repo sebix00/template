@@ -9,7 +9,7 @@
 
   &__heading {
     grid-column: 1/-1;
-    color: var(--color-orange);
+    color: var(--color-orange) !important;
     text-transform: uppercase;
     justify-self: center;
     font-weight: 400;
